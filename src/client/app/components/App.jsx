@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Header from './Header';
-
+import "../app.css"
+import PrimaryData from './PrimaryData';
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -14,8 +15,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <p>Hello, Reacts! HI STEVEN!</p>
-        <Header />
+        <Header/>
+        <PrimaryData/>
       </div>
     );
   }
