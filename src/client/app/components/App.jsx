@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import Header from './Header';
 
 export default class App extends Component {
   constructor(props) {
@@ -14,6 +15,7 @@ export default class App extends Component {
     return (
       <div>
         <p>Hello, Reacts! HI STEVEN!</p>
+        <Header />
       </div>
     );
   }
